@@ -1,0 +1,112 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'barlowregular';
+    background-image: url(../imagenes/fondo3.jpg);
+    background-attachment: fixed;
+    background-size: cover;        
+}
+h1,h2,.veganizados{
+    font-family: 'cagliostroregular';
+}
+.fondo-cesped{
+    background-image: url(../imagenes/fondo1.jpg)
+}
+.btn-index{
+    margin-top: 75px;
+    font-family: 'cagliostroregular';
+    text-align: center;
+    font-size: 30px;
+}
+.fondo-imagen{
+    background-image: url(../imagenes/fondo5.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+.fondo-alpha {
+    background: linear-gradient(rgba(255,255,255,.75),rgba(0,0,0,.75));
+}
+.reglas{
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+}
+ul{
+    font-size: 20px;
+}
+nav{
+    padding: 10px 0;
+}
+.lista-redes span{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    text-shadow: 1px -1px 0 black ;
+}
+.nuevo-primary{
+    background-color: rgba(255, 193, 8, 0.44);
+}
+.mapa{
+    max-width: 100%;
+    max-height: auto;
+}
+
+.contenido-principal {
+    padding-bottom: 20px; 
+}
+.input:invalid {
+  border: 1px solid red;
+}
+header{
+    opacity: 0;
+}
+input:valid {
+  border: 1px solid green;
+}
+.titulo2{
+    opacity: 100;
+}
+.boton-index:hover{
+    opacity: 0.4;
+}
+.parrafo-darki{
+    font: black;
+    font-size: 22px;
+}
+.boton-centro{
+    left: 0%;
+    right: 0%;
+}
+
+
+
+@media screen and (min-width: 767px) {
+    header{
+        opacity: 100;
+        background-image: url(../imagenes/header3.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+        height: 1080px;
+    }
+    .titulo2{
+        opacity: 0;    }
+}
+
+
+
+.vaca-arriba{
+    right: -31px;
+    bottom: -48px;
+    width: 233px;
+    height: auto;
+}
+@media screen and (min-width: 767px) {
+   .vaca-arriba{
+    position: fixed;
+    right: -15px;
+    bottom: 124px;
+    width: 180px;
+    height: auto;
+    } 
+}
