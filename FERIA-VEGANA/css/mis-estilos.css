@@ -24,6 +24,9 @@ header{
     background-attachment: fixed;
     height: 500px;
 }
+.fondo-claro{
+    background-color: #cfedf3;  
+}
 .fondo-imagen{
     background-image: url(../imagenes/vaca-vegan.jpg);
     background-size:cover;
