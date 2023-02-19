@@ -1,0 +1,23 @@
+body{
+    font-family: 'robotoregular';
+}
+h1,h2{
+    font-family: 'bebas_neueregular';
+}
+.lista-redes span{
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    text-shadow: 1px -1px 0 black ;
+    font-weight: bold;
+}
+.fondo-imagen{
+    background-image: url(../img/fondoIII.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#gallery{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
